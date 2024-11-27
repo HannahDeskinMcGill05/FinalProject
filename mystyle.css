@@ -183,3 +183,9 @@ footer p {
         font-size: 2em;
     }
 }
+selector {
+    background-image: (backgroundimage.jpg');
+    background-size: cover;  /* Ensures the image covers the entire element */
+    background-position: center;  /* Centers the image within the element */
+    background-repeat: no-repeat;  /* Prevents the image from repeating */
+}
