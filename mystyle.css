@@ -54,7 +54,7 @@ header p {
 }
 
 .profile-img {
-    border-radius: 50%;
+    border-radius: 60%;
     width: 300px;  /* Doubled the size of the image */
     height: 300px; /* Doubled the size of the image */
     object-fit: cover;
