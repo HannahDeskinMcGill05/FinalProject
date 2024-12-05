@@ -8,16 +8,15 @@
 /* Body and Global Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f6f9;
+    background: linear-gradient(to bottom, rgba(22, 160, 133, 0.8), rgba(0, 0, 0, 0.4)), url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     color: #333;
     line-height: 1.6;
     font-size: 16px;
     padding: 0 20px;
     min-height: 100vh;
-    background-image: url('background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 /* Container for Content */
@@ -36,6 +35,11 @@ header {
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header a:hover {
+    color: #16a085;
+    text-decoration: underline;
 }
 
 /* Profile Image */
@@ -70,6 +74,12 @@ h2 {
     margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.job:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
 }
 
 .job h3 {
@@ -102,6 +112,12 @@ ul li {
     margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
 }
 
 .education-item h3 {
@@ -157,23 +173,21 @@ ul li {
 /* Introductory Section Styling */
 #intro {
     padding: 40px 20px;
-    background-color: #16a085;  /* Different background color to make it stand out */
-    border-radius: 10px;  /* Rounded corners */
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);  /* Darker shadow for added depth */
-    margin-top: 30px;  /* Space from the profile image */
-    color: white;  /* White text for contrast */
+    background-color: #16a085;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+    color: white;
 }
 
 #intro .container {
-    text-align: center;  /* Center-aligns the text */
-    max-width: 900px;  /* Limits the width of the content for better readability */
-    margin: 0 auto;  /* Centers the container within the page */
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 #intro p {
     font-size: 1.2em;
     margin-bottom: 20px;
-    line-height: 1.8;  /* Increases line height for better readability */
+    line-height: 1.8;
 }
-
-
