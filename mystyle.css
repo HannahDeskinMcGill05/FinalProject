@@ -8,7 +8,10 @@
 /* Body and Global Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f1e1; /* Soft warm beige */
+    background: url('background.jpg') no-repeat center center fixed; /* Fix duplicate image */
+    background-size: cover; /* Ensure the image covers the entire screen */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
     color: #3a3a3a; /* Darker neutral gray for text */
     line-height: 1.6;
     font-size: 16px;
