@@ -153,3 +153,19 @@ ul li {
     text-align: center;
     width: 200px;
 }
+
+/* Introductory Section Styling */
+#intro {
+    padding: 40px 20px;
+    background-color: #ffffff;  /* White background to contrast with the background image */
+    border-radius: 10px;  /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Light shadow for depth */
+    margin-top: 30px;  /* Space from the profile image */
+    text-align: center;  /* Center-aligns the text */
+}
+
+#intro p {
+    font-size: 1.2em;
+    color: #333;  /* Dark gray for the text */
+    margin-bottom: 20px;  /* Adds spacing between paragraphs */
+}
