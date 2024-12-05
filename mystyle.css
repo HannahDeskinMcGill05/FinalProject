@@ -185,7 +185,16 @@ ul li {
     max-width: 900px;
     margin: 0 auto;
 }
+/* Header Link Styling */
+header a {
+    color: #2C3E50; /* Same color as the other headings */
+    text-decoration: none; /* Removes the underline */
+}
 
+header a:hover {
+    color: #8E6C56; /* Optional: a slight change on hover for effect */
+    text-decoration: underline;
+}
 #intro p {
     font-size: 1.2em;
     margin-bottom: 20px;
