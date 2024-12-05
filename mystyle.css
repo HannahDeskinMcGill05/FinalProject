@@ -194,3 +194,18 @@ footer p {
         font-size: 2em;
     }
 }
+/* Progress Bars */
+.progress-bar {
+    background-color: #e0e0e0; /* Light gray background */
+    border-radius: 10px;
+    overflow: hidden; /* Ensures the inner bar stays within the container */
+    margin-top: 5px; /* Adds spacing between text and the progress bar */
+    height: 10px;
+    width: 100%; /* Full width of the parent element */
+}
+
+.progress {
+    background-color: #16a085; /* Matches the theme color */
+    height: 100%; /* Fills the height of the container */
+    border-radius: 10px; /* Rounds the inner progress bar */
+}
